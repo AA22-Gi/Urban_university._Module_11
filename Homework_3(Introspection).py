@@ -21,9 +21,6 @@ class Person:
         return f'мне {self.age} лет'
 
 
-
-
-
 def introspection_info(obj: object) -> dict:
     """Принимает объект и возвращает словарь, содержащий:
     тип объекта, его атрибуты, методы и модуль"""
